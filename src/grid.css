@@ -1,0 +1,33 @@
+.rg-root {
+  font-family: 'Malgun Gothic', '맑은 고딕', AppleSDGothicNeo-Light, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  /* ... */
+}
+
+.rg-root .rg-table,
+.rg-root .rg-table tr,
+.rg-root .rg-table td {
+  position: relative;
+  margin: 0 !important;
+  /* 0과 다르면 자동 행 계산 시 틀어진다! content div 전에서 설정할 것!*/
+  padding: 0 !important;
+  /* 0과 다르면 자동 행 계산 시 틀어진다! content div 전에서 설정할 것! */
+  border-spacing: 0 !important;
+  border-collapse: separate !important;
+  box-sizing: border-box !important;
+  line-height: 1.5em;
+}
+
+.rg-fixed-row {
+  /* 고정된 행, 열의 셀 색깔 변경 */
+  background: #0000ff;
+}
+
+.rg-fixed-row td {
+  border-top: none;
+  border-right: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  border-left: none;
+  height: 0;
+}
