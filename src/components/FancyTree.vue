@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import $ from 'jquery';
 import jQuery from 'jquery';
 //const fancytree = require('jquery.fancytree');
