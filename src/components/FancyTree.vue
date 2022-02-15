@@ -5,6 +5,11 @@
 </template>
 
 <script>
+import $ from 'jquery';
+import jQuery from 'jquery';
+//const fancytree = require('jquery.fancytree');
+import fancytree from 'jquery.fancytree';
+
 export default {
   name: 'FancyTree',
   props: {
