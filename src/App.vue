@@ -3,6 +3,7 @@
     <GridBase msg="param text" />
     <VueBase msg="param text" />
     <HelloWorld msg="param text" />
+    <FancyTree msg="param text" />
   </div>
 </template>
 
@@ -10,13 +11,14 @@
 import HelloWorld from './components/HelloWorld.vue';
 import VueBase from './components/VueBase.vue';
 import GridBase from './components/GridBase.vue';
-
+import FancyTree from './components/FancyTree.vue';
 export default {
   name: 'App',
   components: {
     HelloWorld,
     VueBase,
     GridBase,
+    FancyTree,
   },
 };
 </script>
